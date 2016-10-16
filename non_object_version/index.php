@@ -1,5 +1,4 @@
 <?php
-session_start();
 
 
 
@@ -32,9 +31,7 @@ $myListsOfBoissons['redBull'] = array(
     "countMoyenne"=>7,
     "countGrande"=>20); 
 
-if(!empty($myListsOfBoissons)){
-    $_SESSION["list"] = $myListsOfBoissons;
-}
+
 
 
 
@@ -107,16 +104,17 @@ if(!empty($myListsOfBoissons)){
                     <td><input type="checkbox" name="7" value="0.01" /></td>
                 </tr>
                 <tr>
-                    <td><input type="text" name="2euroCount" size="3" /></td>
-                    <td><input type="text" name="1euroCount" size="3" /></td>
-                    <td><input type="text" name="50centsCount" size="3" /></td>
-                    <td><input type="text" name="20centsCount" size="3" /></td>
-                    <td><input type="text" name="10centsCount" size="3" /></td>
-                    <td><input type="text" name="5centsCount" size="3" /></td>
-                    <td><input type="text" name="2centsCount" size="3"/></td>
-                    <td><input type="text" name="1centsCount" size="3" /></td>                  
+                    <td><input type="text" name="count0" size="3" value="0"/></td>
+                    <td><input type="text" name="count1" size="3" value="0" /></td>
+                    <td><input type="text" name="count2" size="3" value="0"/></td>
+                    <td><input type="text" name="count3" size="3" value="0"/></td>
+                    <td><input type="text" name="count4" size="3" value="0"/></td>
+                    <td><input type="text" name="count5" size="3" value="0"/></td>
+                    <td><input type="text" name="count6" size="3" value="0"/></td>
+                    <td><input type="text" name="count7" size="3" value="0"/></td>                  
                 </tr>
             </table>
+
             <input type="submit" value="Passez ma commande" />
         </form>
 
