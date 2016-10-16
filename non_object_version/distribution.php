@@ -86,7 +86,7 @@ if( isset($_POST["boisson"]) && isset($_POST["taille"]) ){
 				$aRendre =  fmod($aRendre,$piecesDisponible[$i]);
 			}
 						
-			echo "<b>somme rendu ".$sommeRendu.": </b>";
+			echo "<b>somme rendu ".$sommeRendu." € : </b>";
 			
 			echo '<table>
 					<tr>
