@@ -2,7 +2,7 @@
 
 require_once "Boisson.php";
 class Distributeur{
-	private $boissons = array();
+	private static $boissons = array();
 
 	public function addBoisson($boisson, $key = null){
 		if( $key == null){
