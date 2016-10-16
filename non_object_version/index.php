@@ -76,7 +76,30 @@ $myListsOfBoissons['redBull'] = array(
             <option value='moyenne'>moyenne</option>
             <option value='grande'>grande</option>
             </select>
-        	<input type="submit" value="Passez ma commande" />
+        	<table>
+				<tr>
+					<td><img src="images/2euro.png" alt="piece 2 euro"></td>
+					<td><img src="images/1euro.png" alt="piece 1 euro"></td>
+					<td><img src="images/50cents.png" alt="piece 50 cents"></td>
+					<td><img src="images/20cents.png" alt="piece 20 cents"></td>
+					<td><img src="images/10cents.png" alt="piece 10 cents"></td>
+					<td><img src="images/5cents.png" alt="piece 5 cents"></td>
+					<td><img src="images/2cents.png" alt="piece 2 cents"></td>
+					<td><img src="images/1cents.png" alt="piece 1 cents"></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="c2euro" value="1"></td>
+					<td><input type="checkbox" name="c1euro" value="1"></td>
+					<td><input type="checkbox" name="c50cents" value="1"></td>
+					<td><input type="checkbox" name="c20cents" value="1"></td>
+					<td><input type="checkbox" name="c10cents" value="1"></td>
+					<td><input type="checkbox" name="c5cents" value="1"></td>
+					<td><input type="checkbox" name="c2cents" value="1"></td>
+					<td><input type="checkbox" name="c1cents" value="1"></td>
+					</tr>
+					<tr>
+			</table>
+			<input type="submit" value="Passez ma commande" />
         </form>
 
 
